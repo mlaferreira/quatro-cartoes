@@ -67,7 +67,7 @@ main{
     width: 300px;
     background-color: var(--Very-Light-Gray);
     border-top: 3px solid var(--Cyan);
-    padding: 20px 50px;
+    padding: 20px 40px 0 40px;   
     box-shadow: 0px 0px 10px var(--Grayish-Blue);
     border-radius: 5px;
     
@@ -90,7 +90,7 @@ main{
 }
 .card-duo-top, .card-duo-bottom{
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 40px 0 40px;  
 }
 .card-uno span,
 .card-duo-top span,
@@ -109,8 +109,15 @@ main{
     margin-bottom: 30px;
     color: var(--Grayish-Blue);
 }
-.img{
+.img{   
     text-align: right;
+    margin-bottom: -30px;
+    
+}
+.img img{
+    width: 45px;
+    height: 45px;
+    max-width: 100%;
 }
 .footer{
     margin-top: 50px;
