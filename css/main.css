@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Very-Light-Gray);
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding: 30px 0px;
+    text-align: center;
+}
+.header h2{
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+}
+.header h1{
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.header p{
+    padding: 0px 33%;
+    font-size: 15px;
+    color: var(--Grayish-Blue);
+}
+
+.body{
+    margin-top: 30px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+     
+}
+
+.card-uno{
+    width: 300px;
+    background-color: var(--Very-Light-Gray);
+    border-top: 3px solid var(--Cyan);
+    padding: 20px 50px;
+    box-shadow: 0px 0px 10px var(--Grayish-Blue);
+    border-radius: 5px;
+    
+}
+.card-duo{    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-duo-top{
+    border-top: 3px solid var(--Red);
+    box-shadow: 0px 0px 10px var(--Grayish-Blue);
+    border-radius: 5px;
+}
+.card-duo-bottom{
+    border-top: 3px solid var(--Orange);
+    box-shadow: 0px 0px 10px var(--Grayish-Blue);
+    border-radius: 5px;
+}
+.card-duo-top, .card-duo-bottom{
+    width: 100%;
+    padding: 20px 10%;
+}
+.card-uno span,
+.card-duo-top span,
+.card-duo-bottom span{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.card-uno p,
+.card-duo-top p,
+.card-duo-bottom p{
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 30px;
+    color: var(--Grayish-Blue);
+}
+.img{
+    text-align: right;
+}
+.footer{
+    margin-top: 50px;
+}
